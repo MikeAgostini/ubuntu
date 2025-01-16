@@ -23,7 +23,7 @@ ADD root/.gitconfig /root/.gitconfig
 ADD root/.scripts /root/.scripts
 
 # Set environment variables.
-ENV HOME /root
+ENV HOME=/root
 
 # Define working directory.
 WORKDIR /root
